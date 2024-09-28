@@ -10,6 +10,7 @@ public class BaseTest {
 
     public WebDriver initializeDriver()
     {
+    	System.setProperty("webdriver.chrome.driver", "E:\\designPattern\\driver\\chromedriver.exe");   	
         WebDriver driver = new ChromeDriver();
 
         return driver;
